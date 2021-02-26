@@ -1,0 +1,166 @@
+body{
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        background-color: #7c7c7c;
+        color:white;
+        margin: 0px;
+}
+
+
+.allContent{width:100%;
+            display: inline-flex
+}
+
+.sidebar{
+        width:30%;
+        background-color: #565555;
+}
+.content-info{
+                width:90%;
+                margin-left: 10px;
+}
+
+.wrapper{
+        margin-top: 15px;
+        margin-left: 0px;
+}
+.menu{
+        padding: 10px;
+        background-color:#565555;
+        font-size: 14px;
+        color:white;
+        margin: 0px;
+        margin-right: 0px;
+}
+.menu-list{list-style-type: none;
+            margin: 0px;
+            margin-left: 0px;
+            padding-left: 0px;
+}
+
+
+.menu-links{
+            padding:10px;
+            text-align: center;
+            
+}
+
+.links{color:white;
+        text-decoration: none;
+        font-weight:600;
+}
+
+.links:hover{color: black;}
+
+.profile{
+        width:70%;
+        border-radius: 50%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 15px;
+}
+
+header{
+        background-color:#383838;
+        text-align: center;
+        padding: 10px;
+}
+h1{
+        font-size: 50px;
+        font-family:"Roboto", sans-serif;
+        color:white;
+}
+h2{
+        font-size: 2em;
+        font-family:"Roboto", sans-serif;
+        color: white;
+}
+
+#about{padding-top: 10px}
+
+.aboutParagraph{text-align:justify;
+}
+
+section#experience{clear: both}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight:bolder;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.education-list{
+                list-style-type: none;
+}
+.education2-list{
+                list-style-type: none;
+}
+.education3-list{
+                list-style-type: none;
+}
+
+h3{color: #ffae00}
+h4{color:#ffc64d;
+    font-size: inherit;
+}
+h5{font-size: inherit}
+
+.experience-list{padding-left: 0px}
+
+.freelance{clear: both}
+
+.experience2-list{padding-left: 0px;}
+.educator{clear: both}
+
+.experience3-list{padding-left: 0px}
+.music{clear:both}
+
+
+.experience4-list{padding-left: 0px}
+
+section#education{clear: both}
+footer{
+        background-color: #383838;
+        align-content: center;
+    text-align: center;
+        color: white;
+        padding: 10px;
+}
+@keyframes animatedLinkedIn{
+    0% {border-radius: 0%;}
+    50%{border-radius: 100%;
+    transform: rotate(180deg);
+    filter:grayscale(100%);}
+    100%{transform: rotate(360deg);}
+}
+.linkedIn:hover{
+    animation-name: animatedLinkedIn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes animatedFacebook{
+    0% {border-radius: 0%}
+    50%{border-radius: 100%;
+    transform: rotate(180deg);
+    filter:grayscale(100%)}
+    100%{transform: rotate(360deg);}
+}
+.facebook:hover{
+    animation-name: animatedFacebook;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes animatedInstagram{
+    0% {border-radius: 0%}
+    50%{border-radius: 100%;
+    transform: rotate(180deg);
+    filter:grayscale(100%)}
+    100%{transform: rotate(360deg);}
+}
+.insta:hover{
+    animation-name: animatedInstagram;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
